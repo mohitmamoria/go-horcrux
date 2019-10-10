@@ -28,7 +28,7 @@ type session struct {
 }
 
 func main() {
-	privKey := "6a7f8201ccf6366175d67235b9915cf6676130aa6e2353181b587f51fd33ab43" // from the trudb for ID: 1
+	privKey := "6a7f8201ccf6366175d67235b9915cf6676130aa6e2353181b587f51fd33ab43"
 	passphrase := "avada_kedavra"
 	fmt.Printf("-> given... \nprivate key: %s\npassphrase: %s", privKey, passphrase)
 
